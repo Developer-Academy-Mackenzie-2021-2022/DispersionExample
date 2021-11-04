@@ -48,7 +48,7 @@ title: String <br>
 
 
 ### Legenda 
-⚠️ Passe mais um parâmetro para o seu gráfico, com o nome de cada eixo <br>
+⚠️ Passe mais um parâmetro para o seu gráfico, com o nome de cada variável <br>
 * subtitle: [String] <br>
 <img width="1044" alt="Captura de Tela 2021-11-04 às 14 08 06" src="https://user-images.githubusercontent.com/53840501/140386132-d5fb9b59-1ad3-466a-bd7e-b05f0b4c26db.png">
 

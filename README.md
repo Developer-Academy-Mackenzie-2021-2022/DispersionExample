@@ -5,6 +5,9 @@ Repositório com app exemplo para o uso do gráfico de Dispersão.
 <img width="326" alt="Captura de Tela 2021-11-04 às 14 28 32" src="https://user-images.githubusercontent.com/53840501/140390546-21d06fbb-4bab-4789-ad00-9cf6ce7057f9.png">
 
 
+<img width="323" alt="Captura de Tela 2021-11-04 às 14 29 42" src="https://user-images.githubusercontent.com/53840501/140395982-1dd57908-8ccb-4dfa-9deb-ac9041714dc9.png"> <img width="326" alt="Captura de Tela 2021-11-04 às 14 28 32" src="https://user-images.githubusercontent.com/53840501/140396089-69cd7f98-5257-47c8-9b9a-23b1c3bd84e6.png">
+
+
 # Passos
 ## 1. Criando um novo projeto
 ![WhatsApp Image 2021-11-03 at 16 28 16](https://user-images.githubusercontent.com/50211565/140180022-138727a3-8b23-4acc-8f03-910a26a376e0.jpeg)

@@ -21,7 +21,7 @@ Primordialmente o gráfico deve receber uma matriz de CGPoints "x, y", já que o
 <img width="987" alt="Captura de Tela 2021-11-04 às 13 38 34" src="https://user-images.githubusercontent.com/53840501/140381207-0de717fa-c70e-420e-ad13-0da515d2f17c.png">
 * points: [[CGPoints]]
 ⚠️ Use o nome da classe do gráfico para instanciar o gráfico em seu projeto: DispersionGraph <br>
-⚠️ Passe como parâmetro, para o seu gráfico, uma matriz com CFPoints. Nesse primeiro exemplo temos apenas um dado na matriz, já que estamos analisando apenas um dado <br>
+⚠️ Passe como parâmetro, para o seu gráfico, uma matriz com CGPoints. Nesse primeiro exemplo temos apenas um dado na matriz, já que estamos analisando apenas um dado <br>
 ⚠️ Lembre-se de setar uma configuração de tamanho para o seu gráfico. Recomendamos no mínimo 350x500 <br>
 
 ## 6. Personalizando o gráfico 

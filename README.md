@@ -1,8 +1,11 @@
 # DispersionExample
-Repositório com app exemplo para o uso do gráfico de Dispersão.
+Repositório com app exemplo para o uso do gráfico de Dispersão. <br>
+
+_O gráfico de dispersão é uma representação gráfica da associação entre pares de dados. Para criar o gráfico de dispersão, é necessário apenas a passagem de uma matriz de CGPoints como parâmetro. A matriz possibilita que mais de um par de dado seja comparado quando o gráfico é criado. Além disso, o usuário também pode setar no momento de criação do gráfico, seu título do gráfico (title:String), os títulos de cada eixo(eixoX: String,eixoY: String), as legendas e também setar as próprias cores ao passar um vetor de Colors(colors: [Colors])._
+
 <br>
-<img width="323" alt="Captura de Tela 2021-11-04 às 14 29 42" src="https://user-images.githubusercontent.com/53840501/140390535-54c23f37-7a0a-4191-93e4-deaa37117211.png">
-<img width="326" alt="Captura de Tela 2021-11-04 às 14 28 32" src="https://user-images.githubusercontent.com/53840501/140390546-21d06fbb-4bab-4789-ad00-9cf6ce7057f9.png">
+
+<img width="323" alt="Captura de Tela 2021-11-04 às 14 29 42" src="https://user-images.githubusercontent.com/53840501/140390535-54c23f37-7a0a-4191-93e4-deaa37117211.png"> <img width="326" alt="Captura de Tela 2021-11-04 às 14 28 32" src="https://user-images.githubusercontent.com/53840501/140390546-21d06fbb-4bab-4789-ad00-9cf6ce7057f9.png">
 
 
 <img width="323" alt="Captura de Tela 2021-11-04 às 14 29 42" src="https://user-images.githubusercontent.com/53840501/140395982-1dd57908-8ccb-4dfa-9deb-ac9041714dc9.png"> <img width="326" alt="Captura de Tela 2021-11-04 às 14 28 32" src="https://user-images.githubusercontent.com/53840501/140396089-69cd7f98-5257-47c8-9b9a-23b1c3bd84e6.png">

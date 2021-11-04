@@ -10,10 +10,20 @@ import FrameworkDeGraficos
 
 struct ContentView: View {
     let points: [[CGPoint]] = [[CGPoint(x: 2, y: 63),
-    CGPoint(x: 3, y: 65),
-    CGPoint(x: 4, y: 80),
-    CGPoint(x: 5, y: 90)]]
-    
+                                CGPoint(x: 3, y: 65),
+                                CGPoint(x: 4, y: 80),
+                                CGPoint(x: 5, y: 90)],
+                               
+                               [CGPoint(x: 2.5, y: 70),
+                               CGPoint(x: 3, y: 60),
+                                CGPoint(x: 4.5, y: 85),
+                               CGPoint(x: 5, y: 92)]
+    ]
+    let titulo: String = "Old faithful eruption"
+    let eixoX = "Espera (min)"
+    let eixoY = "Duracao (min)"
+    let legenda = ["Ano 2017","Ano 2018"]
+
     var body: some View {
         NavigationView {
             ScrollView {
@@ -21,8 +31,9 @@ struct ContentView: View {
                     ///Iniciando o gráfico a partir do pacote
                     ///Tamanho ideal é de 350x500
                     Spacer()
-                    DispersionGraph(points)
+                    DispersionGraph(points,title: titulo,eixoX:eixoX,eixoY:eixoY,subtitle: legenda)
                         .frame(width: 350, height: 500, alignment: .leading)
+                    Spacer()
                     Text("Sobre o gráfico de Dispersão")
                         .font(.headline)
                         .padding()

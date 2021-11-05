@@ -11,7 +11,7 @@
 		13213F7E27331A6B002966C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13213F7D27331A6B002966C4 /* ContentView.swift */; };
 		13213F8027331A83002966C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13213F7F27331A83002966C4 /* Assets.xcassets */; };
 		13213F8327331A83002966C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13213F8227331A83002966C4 /* Preview Assets.xcassets */; };
-		13213F932733243D002966C4 /* FrameworkDeGraficos in Frameworks */ = {isa = PBXBuildFile; productRef = 13213F922733243D002966C4 /* FrameworkDeGraficos */; };
+		13AD701E27359753009F1F01 /* Everest in Frameworks */ = {isa = PBXBuildFile; productRef = 13AD701D27359753009F1F01 /* Everest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,6 @@
 		13213F7D27331A6B002966C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		13213F7F27331A83002966C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13213F8227331A83002966C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		13213F9127332430002966C4 /* FrameworkDeGraficos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FrameworkDeGraficos; path = ../../../NC4/FrameworkDeGraficos; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13213F932733243D002966C4 /* FrameworkDeGraficos in Frameworks */,
+				13AD701E27359753009F1F01 /* Everest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,7 +37,6 @@
 		13213F6F27331A6B002966C4 = {
 			isa = PBXGroup;
 			children = (
-				13213F8927331B73002966C4 /* Packages */,
 				13213F7A27331A6B002966C4 /* DispersionExample */,
 				13213F7927331A6B002966C4 /* Products */,
 				13213F8D27331FDE002966C4 /* Frameworks */,
@@ -72,14 +70,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		13213F8927331B73002966C4 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				13213F9127332430002966C4 /* FrameworkDeGraficos */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		13213F8D27331FDE002966C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +94,7 @@
 			);
 			name = DispersionExample;
 			packageProductDependencies = (
-				13213F922733243D002966C4 /* FrameworkDeGraficos */,
+				13AD701D27359753009F1F01 /* Everest */,
 			);
 			productName = DispersionExample;
 			productReference = 13213F7827331A6B002966C4 /* DispersionExample.app */;
@@ -134,6 +124,9 @@
 				Base,
 			);
 			mainGroup = 13213F6F27331A6B002966C4;
+			packageReferences = (
+				13AD701C27359753009F1F01 /* XCRemoteSwiftPackageReference "Everest" */,
+			);
 			productRefGroup = 13213F7927331A6B002966C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -367,10 +360,22 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		13AD701C27359753009F1F01 /* XCRemoteSwiftPackageReference "Everest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Developer-Academy-Mackenzie-2021-2022/Everest";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		13213F922733243D002966C4 /* FrameworkDeGraficos */ = {
+		13AD701D27359753009F1F01 /* Everest */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = FrameworkDeGraficos;
+			package = 13AD701C27359753009F1F01 /* XCRemoteSwiftPackageReference "Everest" */;
+			productName = Everest;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

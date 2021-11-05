@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import FrameworkDeGraficos
+import Everest
 
 struct ContentView: View {
     let points: [[CGPoint]] = [[CGPoint(x: 2, y: 63),
